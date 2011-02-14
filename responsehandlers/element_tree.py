@@ -1,6 +1,6 @@
 from xml.etree import ElementTree
 
-from responsehandler import ResponseHandler
+from ..responsehandler import ResponseHandler
 
 class ElementTreeResponseHandler(ResponseHandler):
     """
