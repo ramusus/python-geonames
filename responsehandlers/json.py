@@ -1,6 +1,6 @@
 import simplejson
 
-from responsehandler import ResponseHandler
+from ..responsehandler import ResponseHandler
 
 class JsonResponseHandler(ResponseHandler):
     """
