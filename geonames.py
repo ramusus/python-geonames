@@ -8,7 +8,7 @@ from responsehandlers.element_tree import ElementTreeResponseHandler
 from responsehandlers.json import JsonResponseHandler
 
 # Default GeoNames server to connect to.
-DEFAULT_GEONAMES_SERVER = 'ws.geonames.org'
+DEFAULT_GEONAMES_SERVER = 'api.geonames.org'
 DEFAULT_RESPONSE_HANDLER = ElementTreeResponseHandler
 
 class GeoNames():
